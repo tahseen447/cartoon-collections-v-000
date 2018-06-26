@@ -12,9 +12,7 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
-  if (array.map {|element| element.length > 4}.include?(true))
-  true
-else false
+array.any? {|element| element.length >4}
 end
 
 end
